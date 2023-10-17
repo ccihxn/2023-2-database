@@ -1,0 +1,3 @@
+declare
+begin
+end;
