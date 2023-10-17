@@ -1,0 +1,1 @@
+select p.name, pl.name, pl.no from people p, table(p.phone_list) pl;
