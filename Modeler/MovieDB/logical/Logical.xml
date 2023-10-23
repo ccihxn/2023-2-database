@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F375B2D1-9F25-3DB6-264F-71BB270C2AEB" mainViewID="AC47674B-7CEA-0209-24EA-842CE662F16A">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EDD5DBE1-8270-5183-A3BA-11F73713CDC3" mainViewID="E54B333C-3E8B-EB9C-A295-28DCC4C332A7">
 <createdBy>ccihxn</createdBy>
-<createdTime>2023-10-23 16:34:39 UTC</createdTime>
+<createdTime>2023-10-23 16:47:06 UTC</createdTime>
 <ownerDesignName>MovieDB</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

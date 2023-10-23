@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MovieDB" id="225A9202-DC17-71CC-ADF2-54963FDC9750" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MovieDB" id="9679EFEB-EA8C-1D24-CA69-750143672475" version="3.5">
 <createdBy>ccihxn</createdBy>
-<createdTime>2023-10-23 16:34:39 UTC</createdTime>
+<createdTime>2023-10-23 16:47:06 UTC</createdTime>
 <ownerDesignName>MovieDB</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>225A9202-DC17-71CC-ADF2-54963FDC9750</designId>
+<designId>9679EFEB-EA8C-1D24-CA69-750143672475</designId>
 </OSDM_Design>
