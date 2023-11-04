@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c" name="Oracle Database 12c" id="DA0881CE-220B-4E44-035B-916389656A8D" siteID="3FD120B5-9F4E-6278-D5E2-746D192C8319" siteName="Oracle Database 12c" siteType="11">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:11:33 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</StorageDesignOraclev12c>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A49B980-B88A-ACDC-4BA4-91A0CC4AA417" name="Boards">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:12 UTC</createdTime>
+<generatorID>69133FA3-BE41-DA40-E6E3-A92E68B76999</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="board_id" id="D199DC58-6548-7484-15F9-09BD4B0E65F8">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>84B4C57F-23DB-484D-63E4-12C1AB05657B</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D95211C4-5798-923C-6E73-F23DF0AAB370</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="B4586A90-B10B-63EB-AC28-506EE7C2E83F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>4F4AE146-DDA0-B208-44C4-C2922BD7C9AA</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A84F04E0-4E66-ED4A-5DC1-A3E96243EF12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="body" id="B4F14443-4597-1878-3E18-10BD3AE36A08">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>786EB2E9-20A8-B07C-7F2E-95CE41E16AD0</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>CAC471BE-8663-8B0C-9C01-40EBC235A9D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="upload_date" id="0C7131D9-D544-035D-A1AE-75A7954E321B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>78737CC1-B9D9-651C-B8F9-6A84EF00B2C9</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>04E17AED-9468-6213-668A-F734916BB0AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_board" id="1A6788D3-1D94-7C7C-3452-37E7414B777E">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>722C6C55-1B0D-3443-0E22-79080307D9CD</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A84F04E0-4E66-ED4A-5DC1-A3E96243EF12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39563833-9F70-FCA6-FCA5-7BE6596C884B" referredColumn="A53B3B63-D61F-0B3F-E55C-8EBCDE054972"/>
+</associations>
+</Column>
+<Column name="writer_id" id="96BD904F-B56E-A0A3-A7F0-F7064CF78EA8">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>017CD214-BEFF-760E-3614-2DC476A88CBD</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0D60337-F61B-2256-98B5-8002A3894E36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EFC93AE-B1FB-D001-824B-77451BEDB767" referredColumn="A877A4AD-8558-0BAA-B83A-A4B02AD03A77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADBC43C6-BCF7-5EBD-4593-F4EA32FCBD28" name="Products_Board_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>4069A4DF-1F2E-9876-F5AF-68AC190B0FA6</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D199DC58-6548-7484-15F9-09BD4B0E65F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D311F3C5-9AE6-7A27-E974-99115BB2EF39" name="Board_Write">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>C69B41EA-5981-38EC-65BB-0C2393287F64</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96BD904F-B56E-A0A3-A7F0-F7064CF78EA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3BD4AB8-ED2F-64C8-23BD-B311EABBD842" name="Set_Type_Board">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>4EBE0E72-AA9A-F6CC-C913-EF6210D87192</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A6788D3-1D94-7C7C-3452-37E7414B777E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

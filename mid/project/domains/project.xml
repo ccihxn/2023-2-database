@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="project">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="address" id="0FC996DC-799B-664D-B31A-EB01C085D5DA">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:28:52 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150</dataTypeSize>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="rank" id="2C703CCF-443C-5EB4-E8C2-F5B94A3BD790">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:32:08 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2</dataTypeSize>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="과장" description=""/>
+<valueDef value="대리" description=""/>
+<valueDef value="부장" description=""/>
+<valueDef value="사원" description=""/>
+<valueDef value="사장" description=""/>
+<valueDef value="차장" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phoneno" id="4D4B7017-9006-EDBF-0CDC-A8152C262040">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-23 16:56:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>11</dataTypePrecision>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="money" id="57BD92C7-3E21-90D0-8A17-B71AF1DEA76F">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:36:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>100</beginValue>
+<endValue>9999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="sno" id="7CA82834-9403-9B1F-726A-D313EB9486F5">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:28:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>11</dataTypePrecision>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% &gt; 0 and %COLUMN% &lt; 999999"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="date" id="7F77F049-2E46-012E-BC98-8BB5A55EA75A">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:34:47 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% &gt;= DATE &apos;1910-01-01&apos; AND %COLUMN% &lt; DATE &apos;2030-01-01&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name" id="8F43C562-1175-979B-1D7C-273ACCE2AE69">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:28:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>project</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

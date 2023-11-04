@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CC36E0C-E0AD-9A69-E634-EE7988F9C202" name="department">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>BF206349-A6D0-5096-F7D8-07DAEE932BA8</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="35272127-DC89-6E38-262C-80746DDBC5D1">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>FD8459C0-21B0-E817-B008-130B0683068F</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ACFFE904-79D9-5312-CA1B-B2AC3AF3CA87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28344FE3-C180-3F8D-22E2-1EB622D95BAD" name="department_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>0D325753-5AE9-05BF-1E93-A974188FF91E</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35272127-DC89-6E38-262C-80746DDBC5D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

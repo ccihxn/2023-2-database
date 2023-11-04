@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78DB3B3D-20F6-A9AB-E593-25A11E3EB0D2" name="sugang_of">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="studentNo" id="7C6CA1DE-1635-CF01-56CD-D0DCECE28096">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC2E11EC-4BB3-23FD-7B1F-6EEE72E3B6FE" referredColumn="D342D653-9BB9-AEEC-C9D1-1BEB08108829"/>
+</associations>
+</Column>
+<Column name="class_id" id="E0C9CA10-D1E7-3301-E48F-01F50332DE44">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18BA14DC-33C0-F83D-5C32-8C0DFB607934" referredColumn="0E340E69-309E-898E-2552-9ADF60193EBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBD4C048-4F79-F304-99A0-66401E88FF16" name="sugang_of_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6CA1DE-1635-CF01-56CD-D0DCECE28096"/>
+<colUsage columnID="E0C9CA10-D1E7-3301-E48F-01F50332DE44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="413075C7-9BA6-90D0-F640-41C57C8FF1CE" name="sugang_of_students_FK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<generatorID>42666EEC-548A-99C0-026C-B2FFBE492E8F</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6CA1DE-1635-CF01-56CD-D0DCECE28096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D260AD48-7D9A-9EB7-DA67-5F8CA57ED855" name="sugang_of_parted_class_FK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<generatorID>42666EEC-548A-99C0-026C-B2FFBE492E8F</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0C9CA10-D1E7-3301-E48F-01F50332DE44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="execPhoneno" directorySegmentName="seg_0" id="34469C15-6C56-5581-9476-5DE64BA067BD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-06 06:43:12 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<targetPk>A3629BAB-8D8B-C9AD-381A-5A726B9209E6</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CC17F5C1-FE7F-5256-2BBE-0686EDB15336</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FDE65E16-F1C7-7BE5-3142-8768D853E548</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

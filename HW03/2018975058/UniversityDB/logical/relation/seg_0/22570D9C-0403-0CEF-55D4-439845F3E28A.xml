@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="class_time_of_room" directorySegmentName="seg_0" id="22570D9C-0403-0CEF-55D4-439845F3E28A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-20 12:03:41 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<sourcePk>1B9A1EA2-26BE-AD6D-E227-D53C7B1D912E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6955A8F5-AE10-0DA6-CDA3-77BED705EC81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2423C00-28CA-BA6F-D8C6-43E668E8D055</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

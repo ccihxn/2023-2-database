@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5148477D-B297-FE6E-6921-B9F4AF6BD0EF" name="MovieStar">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>7A5C1F2D-5727-0DFD-2950-9B47A683E636</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="4C98099F-37FA-73DA-39DB-7F51AF226838">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>50AF8623-1C80-30CF-0ACE-B90BF528AAA1</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="61689614-8AB5-0979-02C3-E495FB960194">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>FFE96E57-76A5-B4EF-D9B6-3EB67580FFD3</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0AE9331-E208-958F-7906-28F9ADBF069B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="B36CE509-6691-F9C8-C654-16AE83A3C138">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>027B089C-713D-5CC5-5BA2-75881E994F02</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3DB204-B7B6-B703-FB7C-6C1AF7774A2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthdate" id="08E5C665-55B5-3776-2C8C-3B4BD17A9D80">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>057A2660-E56A-47E6-83E2-8DE9A9049731</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presNo" id="4C2DAEC4-8FDC-EAC3-215B-70E64B6F6965">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>8F4B0969-C3BF-18A6-F219-DD721F068A66</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3570D261-08DD-9446-C06B-9905F24701E9" name="st_key">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>956AB50E-90C6-98DE-3174-87A823A59B84</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C98099F-37FA-73DA-39DB-7F51AF226838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A34C6466-7A37-8B3B-96B1-37DF0CE0C189" name="MovieStar__IDX">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C98D3C8B-F416-A526-E4AA-8E30B7151B09</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4C2DAEC4-8FDC-EAC3-215B-70E64B6F6965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SEX_CHK" directorySegmentName="seg_0" id="17B303C1-631E-9538-7C31-57F586B43B21">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<importedID>68753E8C-987C-58BA-7C4A-75324601BF6F</importedID>
+<rule><![CDATA[gender in ('male', 'female')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

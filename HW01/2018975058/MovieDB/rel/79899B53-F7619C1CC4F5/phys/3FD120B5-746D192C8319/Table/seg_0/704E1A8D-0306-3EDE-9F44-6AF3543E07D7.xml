@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PhoneNo" directorySegmentName="seg_0" id="704E1A8D-0306-3EDE-9F44-6AF3543E07D7">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="execNo" id="1050FA48-A89A-45D5-CFA2-D0790A8CEF1B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="plan" id="2C26E433-1E8A-711F-0A6B-01B1386836EA">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="studioName" id="7475E3E2-BF26-4FC5-1673-24417DB8483D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phoneNo" id="A66BF60A-D7A4-696F-4C4D-5F0E244B1702">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="procider" id="D44073C9-8C44-E6DE-C9B0-AAFA4029A03E">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="starName" id="DA13969D-CD51-1EED-CFBA-731BA8C8E1EB">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="StarsPhoneno" id="3182194E-CACA-572D-921F-BDE0E9090552">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ExecPhoneno" id="84F968D7-816D-B5B7-3399-258234E31B3F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="StudioPhoneno" id="B8304A57-E790-51B1-9172-0D7AC95756F5">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PhoneNo_PK" id="EFF965A0-32A5-7FA4-3B77-6732B5F1D0FD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2014EF65-6AAC-8FEC-2902-385660522F5B" name="Studio">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>3781AAD8-7BEA-AEA7-4EC5-DADCF2D1D780</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="61BBC48B-C207-4300-37C1-E838A0E840B8">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>135FB3AC-EDF6-3D6C-6A86-BA76CB4D1DC6</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="63E4FC1E-5F4C-1637-C1F3-7DB4ED2C78BF">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>36A418CC-7670-1D4E-A70C-18FE3C953161</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0AE9331-E208-958F-7906-28F9ADBF069B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presNo" id="4272375F-861F-1C3A-7421-B75AF98BAA5A">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 07:05:07 UTC</createdTime>
+<generatorID>EDCBC81C-4E4B-1B8A-5BF1-8C2AAE369112</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BBCEB18-79AB-732C-CB3D-85B5EF7AD176" referredColumn="DB6E361F-543E-777F-850B-754BF1D8AD81"/>
+</associations>
+</Column>
+<Column name="empCount" id="B5673CF3-6ACA-8C64-52DE-0C7807322EA1">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>214CC69B-4CB3-A3A2-3A15-32CB83EBAC04</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4C65DB16-1632-FBFE-8D6C-6409AF7F4391</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="phoneNo" id="1A892A01-9559-BC3B-8FCC-FD2AC9A35EE7">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<generatorID>335E9B30-9297-A9AC-BA1F-0AE1576ACBF7</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>35AB1897-8858-ABD1-F9D0-DE9CB71C7FCF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>3BBCEB18-79AB-732C-CB3D-85B5EF7AD176</dependOnForeignKeyID>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>01000000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D674360-CECB-E388-ED49-AE7B166FD514" name="std_key">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>16F5686D-360A-641A-10A5-A72F8C146022</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BBC48B-C207-4300-37C1-E838A0E840B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7094CE2C-9BE6-30A6-81B6-41E9E0CB290B" name="Studio__IDX">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 07:05:07 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DBF1CFC7-060E-C2EE-6B1A-65E85039452B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4272375F-861F-1C3A-7421-B75AF98BAA5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FFBD9EF-4288-13F8-3DA8-58B3A94ABAC1" name="Runs">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 07:05:07 UTC</createdTime>
+<generatorID>DBF1CFC7-060E-C2EE-6B1A-65E85039452B</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4272375F-861F-1C3A-7421-B75AF98BAA5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MOVIE" directorySegmentName="seg_0" id="34E2EF2C-4C15-5875-9265-BAADEBD948E4">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="producerNo" id="587781E3-2864-9E00-BF91-8DE2C44D94E3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="soundStudioName" id="730B41B6-D878-0765-1545-6EDB0E39C181">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCOLOR" id="769679A8-D151-2E1A-32C0-7BDFE5888597">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="STUDIONAME" id="7A406DD8-70A2-4E27-6D70-A4A24D49EEBE">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="8A53A13B-6415-8D32-5ED3-ACE87B721110">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="presNo" id="AAE23428-595D-6E57-8E5E-BB48C9F4BE79">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="C6638B9E-13BD-D9C9-2313-7907F636E354">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="LENGTH" id="F53DAE89-E47F-850E-465F-2090DAA632D8">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Sounds" id="12007889-DC51-6D90-7B9C-030EE653705F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Owns" id="6A95A497-4C72-5295-C0FA-F04C5CA6F8CB">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Directed" id="783720C7-BA6A-D27B-4928-C0451B3A7A61">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="mv_prod" id="B1561FD6-B9EC-FD6C-D223-4B083974EF05">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="mv_key" id="EBEB7C05-B985-653E-267F-0D730F874922">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="mv_chk" id="ADF2514B-2141-FD4D-90E2-75AE19D27376">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

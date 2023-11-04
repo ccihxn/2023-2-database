@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="phoneNum" directorySegmentName="seg_0" id="5C9BBD10-DEFB-1242-D87D-F896EE0775C6">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:54:01 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<predefined>false</predefined>
+<final>true</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="handPhone_no" id="B1871224-4D0C-22DD-1482-205DA494036D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:57:10 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>3BB0185F-48C1-DBB0-470B-603596E25700</type>
+</Attribute>
+<Attribute name="homePhone_no" id="A68CCEF9-AE94-F1E7-559E-9E42D4F05987">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:57:36 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>3BB0185F-48C1-DBB0-470B-603596E25700</type>
+</Attribute>
+<Attribute name="officePhone_no" id="ECE75C58-DEB5-ED13-A539-9E099D4BE9CD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:58:21 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>3BB0185F-48C1-DBB0-470B-603596E25700</type>
+</Attribute>
+</attributes>
+</StructuredType>

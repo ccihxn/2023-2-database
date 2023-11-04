@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A607E8-C98F-F349-5AF6-9E4DA1C38587" name="class_time">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>F2423C00-28CA-BA6F-D8C6-43E668E8D055</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E1B35E96-CE42-874D-D4F1-DC7F6B7E4303">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>132736E2-8841-55AD-0D0F-DFD4F177BCE5</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_date" id="D28312D2-C004-ECFA-62A1-0D96A2AA6EF6">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>AFB739E2-F1CE-7421-4902-BCB5B244CA91</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>E3C362A6-CCEC-1C40-1B69-61DF45798A62</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_id" id="B324BEA2-EDBB-0DA2-E99B-5F9A2F33D7E3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>6712FFB6-57B7-4BB2-175E-C34E6839D3F3</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EDEABBE-0D92-84A1-D61F-9C826B35BA9B" referredColumn="0E340E69-309E-898E-2552-9ADF60193EBB"/>
+</associations>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="class_date.day" id="AC9249AF-2C73-C6C6-FD94-8923E3AC96D2">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>5E0FC2EF-37F9-326B-D81B-805D9C095073</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<parentObject>D28312D2-C004-ECFA-62A1-0D96A2AA6EF6</parentObject>
+<structAttributeID>8D603CF1-8E26-1E65-80DE-9A8A9BFC83DA</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>A3C9C469-1B47-98EF-6425-63D45CCCA83B</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="class_date.start_time" id="7311B56D-6D70-858D-7D6A-3804BA378C79">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>CC41DC78-9F8E-1774-8E41-11303DB04679</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<parentObject>D28312D2-C004-ECFA-62A1-0D96A2AA6EF6</parentObject>
+<structAttributeID>1B100145-48FB-ED61-227F-48DC66103E65</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<domain>EAF276F1-3F9B-1F1D-26D2-9C81303977FC</domain>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="class_date.end_time" id="9C8E568B-EF95-78FA-B11F-E3718CEF47E6">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>BEF5621C-6336-052C-CFAB-8CEFAD730610</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<parentObject>D28312D2-C004-ECFA-62A1-0D96A2AA6EF6</parentObject>
+<structAttributeID>33CAE1C8-DEC4-AADD-8A96-651534A1411C</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<domain>EAF276F1-3F9B-1F1D-26D2-9C81303977FC</domain>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6F5C465-21A4-2A6A-75DD-8FD78791D728" name="class_time_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>05181B2A-9BD2-86D4-8116-B38984DD3423</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B35E96-CE42-874D-D4F1-DC7F6B7E4303"/>
+<colUsage columnID="B324BEA2-EDBB-0DA2-E99B-5F9A2F33D7E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA935D2B-F279-174C-5374-8F57DCE81EC7" name="Relation_14">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:19 UTC</createdTime>
+<generatorID>95656FD7-E1ED-809E-BC9E-8125C1FFEC45</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B324BEA2-EDBB-0DA2-E99B-5F9A2F33D7E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

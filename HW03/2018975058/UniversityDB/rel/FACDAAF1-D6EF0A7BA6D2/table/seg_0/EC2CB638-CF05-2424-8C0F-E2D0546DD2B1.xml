@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC2CB638-CF05-2424-8C0F-E2D0546DD2B1" name="lecture_room">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>6955A8F5-AE10-0DA6-CDA3-77BED705EC81</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8AA18BEA-2766-F686-9FC1-ED7D6F576A54">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>383FE0D9-E16A-628E-9F08-95C24BFA003E</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="building_name" id="C231E90A-BBF5-DA8E-410C-D449DAECB75C">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>6FCCB299-EB11-3CB5-6BBA-80C366A55862</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>79AC5FE8-381E-E645-0C68-367605DA45A6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_no" id="A3887064-2841-EDAA-155C-C8C56DC60482">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>B974954F-B1A5-5C7C-B53C-89C980B75FDB</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D0435BD-A566-D981-FE69-2E4B657725DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="floor" id="D4B9FD77-D352-D9FE-2310-87115AED9114">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>EE33AD36-5FA4-C6FF-6102-24A7F0CF5036</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D0435BD-A566-D981-FE69-2E4B657725DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capasity" id="7795BA72-8BB3-7048-BA99-031763394E0A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>E8496CDB-20BE-EAAB-8B9A-7163AAB30912</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D0435BD-A566-D981-FE69-2E4B657725DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F55636D-4B3E-FB9D-C9E5-E2AA3241405B" name="lecture_room_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>1B9A1EA2-26BE-AD6D-E227-D53C7B1D912E</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AA18BEA-2766-F686-9FC1-ED7D6F576A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

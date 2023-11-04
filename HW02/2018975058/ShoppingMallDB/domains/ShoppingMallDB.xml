@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ShoppingMallDB">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="datetype" id="04E17AED-9468-6213-668A-F734916BB0AA">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 10:22:53 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% &gt;= DATE &apos;1910-01-01&apos; AND %COLUMN% &lt; DATE &apos;2030-01-01&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="address" id="81888EF0-667E-383E-41BC-DF9A1E1DD66E">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 07:54:40 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phoneNo" id="9892E2BC-0987-A1B2-38D2-0C0F9C948B66">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 10:15:05 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>11</dataTypePrecision>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0100000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="names" id="A84F04E0-4E66-ED4A-5DC1-A3E96243EF12">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 07:53:03 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="email" id="B0D60337-F61B-2256-98B5-8002A3894E36">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 07:52:06 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="networth" id="C57A4104-2AD5-0526-9F83-66B848FE410D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 10:29:55 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% &gt;= 1000 AND %COLUMN% &lt; 99999999"/>
+</checkConstraint>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>500</beginValue>
+<endValue>99999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="body" id="CAC471BE-8663-8B0C-9C01-40EBC235A9D5">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 11:04:29 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="sno" id="D95211C4-5798-923C-6E73-F23DF0AAB370">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-12 10:17:15 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>20</dataTypePrecision>
+<fileName>ShoppingMallDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

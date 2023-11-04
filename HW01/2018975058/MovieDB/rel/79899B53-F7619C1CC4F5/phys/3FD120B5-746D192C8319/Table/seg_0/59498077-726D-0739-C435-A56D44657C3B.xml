@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MOVIEEXEC" directorySegmentName="seg_0" id="59498077-726D-0739-C435-A56D44657C3B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADDRESS" id="013A9DBC-1109-50E7-E363-C8A9E43E57F6">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="86CAE2BC-19B8-550C-6435-C2A313A8C7B0">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="birthdate" id="C45A93AF-D643-3DC3-9A54-BA13D40BA1C7">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NETWORTH" id="C64AE779-0A06-2121-1954-B12777AEFB0F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="CERTNO" id="DB6E361F-543E-777F-850B-754BF1D8AD81">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="studioName" id="FC62CAB8-7A76-E579-6730-5A9496540F4A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MovieExec__IDX" id="8B1A1CB0-D7E4-03AD-42DA-970E40798D20">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="me_key" id="521041F1-CBF1-B73C-A2A3-857986D76C68">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="me_name" id="46A50587-0DD3-97B0-34D4-514065F38CB5">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

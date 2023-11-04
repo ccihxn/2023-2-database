@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBD3AA53-6DA9-A958-B7CA-859FBE9F38AC" name="project">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:39:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="0D93F0F9-0F47-186B-3E9F-A4EE5C2F586E">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:39:12 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F43C562-1175-979B-1D7C-273ACCE2AE69</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="body" id="7A4FA0DC-0684-13F5-56BC-71444CA88AD4">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:39:17 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0FC996DC-799B-664D-B31A-EB01C085D5DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="networth" id="0CF4D945-FB9A-3BA1-0F06-D9D1971722B2">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:39:29 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57BD92C7-3E21-90D0-8A17-B71AF1DEA76F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>100</beginValue>
+<endValue>9999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="contract_date" id="9C55EC9E-8CA7-EC84-BD6C-F0F744F93A59">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:39:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7F77F049-2E46-012E-BC98-8BB5A55EA75A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deadline" id="485966D4-ED8B-1F20-9A7C-9CE2A78EAAEA">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:40:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7F77F049-2E46-012E-BC98-8BB5A55EA75A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="A57CD671-7C47-85AE-B30B-EE8C32C4391B">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:48:16 UTC</createdTime>
+<generatorID>7E3AEBE5-17F2-6591-91AB-7D4C039D6E1C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<referedAttribute>17BF9987-0E1E-9E05-AED3-78555C2AF836</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0FC996DC-799B-664D-B31A-EB01C085D5DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="BC19BCF6-F97B-299F-04DD-18A991C28857">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:48:16 UTC</createdTime>
+<generatorID>7E3AEBE5-17F2-6591-91AB-7D4C039D6E1C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<referedAttribute>EE90B080-5C53-5747-7090-C11BFFF314AF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F43C562-1175-979B-1D7C-273ACCE2AE69</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48C31F95-F81C-EA34-F15D-B2093DA7BE32" name="project PK">
+<createdBy>ccihxn</createdBy>
+<createdTime>2023-10-24 06:41:19 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="4A9A8BF6-D05E-D414-8FA8-CD01259E7D89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D93F0F9-0F47-186B-3E9F-A4EE5C2F586E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="79899B53-C384-E1AC-2794-F7619C1CC4F5" mainViewID="237E66C8-42E1-C628-76BB-F9EEBDBE0DE3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 05:20:31 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>MovieDB.sql</fileName>
+<pathName>/Users/jeonjihwan/Downloads</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Employee_Address" directorySegmentName="seg_0" id="1839FB73-5EB3-B2CE-23B3-7F3CDD5EBA33">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 07:59:44 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<sourcePk>82F826CC-CF87-5F62-EA9E-0FBA0554F243</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>494DC3BF-6F66-6F73-238A-598932752E4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0291F369-763D-690B-5F4F-1596706CE4A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

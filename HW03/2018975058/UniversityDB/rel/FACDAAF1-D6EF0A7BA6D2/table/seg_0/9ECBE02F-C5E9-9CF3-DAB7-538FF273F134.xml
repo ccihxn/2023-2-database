@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ECBE02F-C5E9-9CF3-DAB7-538FF273F134" name="assistant">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>FE5C3399-CE13-FE3E-4540-4DD3A5415143</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assistant_no" id="0D7CA98A-CCBE-BEC6-5818-BF14F732EF1F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>0393F802-1BA4-2A3E-00FF-9A8A02F93E9C</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assistant_info" id="13F1C50E-C54E-5E22-29A9-631AFF7196DC">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>EC6E83B8-5D84-55E7-4DFC-64AD7DFAB291</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>7BCCCD9C-E10D-0972-B459-1266F6E256DF</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department" id="C8F2BF4B-9B94-EA32-0681-CDB95C50D0DC">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>DB89C8D4-D431-C62D-BDA4-D3758E55C038</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ACFFE904-79D9-5312-CA1B-B2AC3AF3CA87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62D03C5A-4E2D-FDCD-DA62-6244B5FDF965" referredColumn="35272127-DC89-6E38-262C-80746DDBC5D1"/>
+</associations>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="assistant_info.name" id="6F96FE45-33E7-634E-96BC-D2571246C301">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>232F6A02-91F3-FAC9-3A65-36E31B85CA17</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<parentObject>13F1C50E-C54E-5E22-29A9-631AFF7196DC</parentObject>
+<structAttributeID>C255BAE1-DA7C-0048-F5FB-4D9599F41246</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>79AC5FE8-381E-E645-0C68-367605DA45A6</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="assistant_info.address" id="468EBB4D-CD2F-9763-B3D8-6FF466E08B7C">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>5E51270B-AFDE-C8C8-593E-0F21D168F871</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>13F1C50E-C54E-5E22-29A9-631AFF7196DC</parentObject>
+<structAttributeID>3788853C-3939-232C-F5CD-EA9DDBF2463A</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<domain>618F7A32-5AEA-9658-25B8-F963E13ABB97</domain>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="assistant_info.phoneNo" id="73A989CB-DB1C-27E2-4000-1A618FB440FF">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>5189E881-4F7A-F9D5-792D-C4444586C6A2</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>13F1C50E-C54E-5E22-29A9-631AFF7196DC</parentObject>
+<structAttributeID>1217EBA6-F23A-87CE-49DA-C98938BAD3EE</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>5C9BBD10-DEFB-1242-D87D-F896EE0775C6</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="assistant_info.phoneNo.handPhone_no" id="F303A0DB-5A1B-CECC-D044-21870EA0B881">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>C0A983B8-35A6-CE9C-4211-05570F556C93</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<parentObject>73A989CB-DB1C-27E2-4000-1A618FB440FF</parentObject>
+<structAttributeID>B1871224-4D0C-22DD-1482-205DA494036D</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedColumn>
+<nestedColumn name="assistant_info.phoneNo.homePhone_no" id="725EDD78-BBCA-4F1F-6C4F-17B4432FB17D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>53987990-D926-0E85-DE17-306FB578C9CA</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>73A989CB-DB1C-27E2-4000-1A618FB440FF</parentObject>
+<structAttributeID>A68CCEF9-AE94-F1E7-559E-9E42D4F05987</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedColumn>
+<nestedColumn name="assistant_info.phoneNo.officePhone_no" id="0DE32157-C363-2121-9E8B-2577F7DAC8C5">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>BD1EEA86-24F1-68DE-0B57-15445C3CEDB6</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>73A989CB-DB1C-27E2-4000-1A618FB440FF</parentObject>
+<structAttributeID>ECE75C58-DEB5-ED13-A539-9E099D4BE9CD</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D16E7BD-63F8-FF76-E4D2-25E3EB2E664E" name="assistant_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>9BE1BC92-1005-E221-D5DE-AA70EEA6B806</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D7CA98A-CCBE-BEC6-5818-BF14F732EF1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44BA9288-B05B-E360-F81C-EAA7ACBA268A" name="assistants_major_of">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:43:18 UTC</createdTime>
+<generatorID>2DBC5F16-06F1-95DF-29F5-5619C8E86CF1</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F2BF4B-9B94-EA32-0681-CDB95C50D0DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

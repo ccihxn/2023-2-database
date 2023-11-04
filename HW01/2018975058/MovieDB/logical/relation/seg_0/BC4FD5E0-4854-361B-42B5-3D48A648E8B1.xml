@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StarsIn" directorySegmentName="seg_0" id="BC4FD5E0-4854-361B-42B5-3D48A648E8B1">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:58:41 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>45BBC862-15E0-D6BA-AC3D-EC13B5DC2E26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A5C1F2D-5727-0DFD-2950-9B47A683E636</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="salary" id="DCE0A415-F673-204F-3AB8-39BA8FE2B168">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 07:04:14 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DE0EFB60-AE8D-0A3F-DC7F-F6AD29F8AD90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10000</beginValue>
+<endValue>99999999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</attribute>
+</attributes>
+</Relation>

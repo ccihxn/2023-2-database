@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>
+   <object objectType="StructuredType" objectID="7BCCCD9C-E10D-0972-B459-1266F6E256DF" name="People_info" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="CEE04250-8C6A-3B06-9CFB-F671B30C142D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="StructuredType" objectID="5C9BBD10-DEFB-1242-D87D-F896EE0775C6" name="phoneNum" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="CEE04250-8C6A-3B06-9CFB-F671B30C142D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="StructuredType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="CEE04250-8C6A-3B06-9CFB-F671B30C142D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="StructuredType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="CEE04250-8C6A-3B06-9CFB-F671B30C142D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="StructuredType" objectID="E3C362A6-CCEC-1C40-1B69-61DF45798A62" name="class_date" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="CEE04250-8C6A-3B06-9CFB-F671B30C142D" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>

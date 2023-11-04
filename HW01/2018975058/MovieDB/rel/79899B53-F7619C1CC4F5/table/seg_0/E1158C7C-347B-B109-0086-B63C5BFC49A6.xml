@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1158C7C-347B-B109-0086-B63C5BFC49A6" name="Addresses">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>EFA30757-7031-AAC2-5C6E-5EAB9AFBC94B</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sNo" id="5EB36C95-F823-0345-623F-99AEBE9C0B51">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>8AED514A-07F7-4ECA-379D-9EC3C350D032</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A878C283-0794-0562-2EC3-D3CA96AC098D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>C11EEC5C-E078-29E3-B0CF-6F5572D1DA4D</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gu" id="F40BFA8D-681F-B65C-5C2A-DD9EEFF93D10">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>F03F7FA0-B4BD-920F-04DC-D0B407352454</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dong" id="0FFD5E5B-98F3-2C7A-73EA-680A1655EF22">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>9D0CDC2C-B7D3-C547-4CA6-ECE8DBD26BAC</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail" id="195443B1-9427-83CB-A7E3-6E0A0A99D483">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>D87F4774-13C1-247B-8FF7-5A93CE9C6D93</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studioName" id="63D008C4-C2D6-D971-3B05-90F50FE20B35">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>25B05827-0D57-772C-1CB5-3B55C4665F95</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="455CF719-E6D6-5CD8-E21D-81C06C484560" referredColumn="61BBC48B-C207-4300-37C1-E838A0E840B8"/>
+</associations>
+</Column>
+<Column name="starName" id="B8D13487-75C2-779A-E211-1D6D3487FEE7">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>FEFD893A-491C-1DAC-B12F-E0CF274357D1</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5715BEE2-E360-A2EF-9F74-5516973AA0FB" referredColumn="4C98099F-37FA-73DA-39DB-7F51AF226838"/>
+</associations>
+</Column>
+<Column name="address" id="8D14AA79-160F-74A7-A697-D60CB1D53776">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 10:41:19 UTC</createdTime>
+<generatorID>BF0FA734-723D-BA5A-1B55-427DBCD7C770</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0AE9331-E208-958F-7906-28F9ADBF069B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A7F1F31-48A9-586F-546C-7F33B5656D68" name="Addresses_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>67E79BD5-6E60-D0E2-DE01-221F9CBE6850</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D14AA79-160F-74A7-A697-D60CB1D53776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93748A98-3ED2-7BD8-0E15-E564D3A839B8" name="Addr_Star">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>15C93E0D-987E-28EC-CD39-9D1C293D06D9</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D13487-75C2-779A-E211-1D6D3487FEE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="947D3EB3-2727-6DEA-E3C5-37E639D7493C" name="Address_Of">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>8822A7C9-3656-341E-ACB4-DA1F23F556D0</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D008C4-C2D6-D971-3B05-90F50FE20B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

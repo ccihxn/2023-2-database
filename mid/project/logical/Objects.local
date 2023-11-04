@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6E324145-37E9-643E-43A8-897ACAC5B9CC" name="company" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C697A59-649D-BEAB-C342-FDC85DEDF374" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="727E9414-AA02-7F50-F4F8-B17DEF3CE695" name="employee" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C697A59-649D-BEAB-C342-FDC85DEDF374" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DBD3AA53-6DA9-A958-B7CA-859FBE9F38AC" name="project" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C697A59-649D-BEAB-C342-FDC85DEDF374" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="7E3AEBE5-17F2-6591-91AB-7D4C039D6E1C" name="order" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9C697A59-649D-BEAB-C342-FDC85DEDF374" propertySourceId="6E324145-37E9-643E-43A8-897ACAC5B9CC" propertyTargetId="DBD3AA53-6DA9-A958-B7CA-859FBE9F38AC"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

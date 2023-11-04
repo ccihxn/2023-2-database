@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6EFC93AE-B1FB-D001-824B-77451BEDB767" containerWithKeyObject="4A49B980-B88A-ACDC-4BA4-91A0CC4AA417" localFKIndex="D311F3C5-9AE6-7A27-E974-99115BB2EF39" name="Board_Write">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>C69B41EA-5981-38EC-65BB-0C2393287F64</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<referredTableLongName>Member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA544653-96D3-F038-98C9-0BD116979A1A</referredTableID>
+<keyObject>20F663DE-B186-18AE-DBE0-43A971FBB828</keyObject>
+<referredKeyID>20F663DE-B186-18AE-DBE0-43A971FBB828</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>login_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

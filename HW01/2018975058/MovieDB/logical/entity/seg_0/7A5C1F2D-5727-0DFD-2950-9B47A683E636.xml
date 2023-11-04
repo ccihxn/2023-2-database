@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A5C1F2D-5727-0DFD-2950-9B47A683E636" name="MovieStar">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:22:40 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="50AF8623-1C80-30CF-0ACE-B90BF528AAA1">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:22:47 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="FFE96E57-76A5-B4EF-D9B6-3EB67580FFD3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:22:53 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0AE9331-E208-958F-7906-28F9ADBF069B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="027B089C-713D-5CC5-5BA2-75881E994F02">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:22:57 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3DB204-B7B6-B703-FB7C-6C1AF7774A2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthdate" id="057A2660-E56A-47E6-83E2-8DE9A9049731">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:23:18 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presNo" id="8F4B0969-C3BF-18A6-F219-DD721F068A66">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:48:15 UTC</createdTime>
+<generatorID>C98D3C8B-F416-A526-E4AA-8E30B7151B09</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>76B8BE82-BEBD-5017-618A-A7E74F98A13E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="956AB50E-90C6-98DE-3174-87A823A59B84" name="MovieStar PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:23:06 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50AF8623-1C80-30CF-0ACE-B90BF528AAA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

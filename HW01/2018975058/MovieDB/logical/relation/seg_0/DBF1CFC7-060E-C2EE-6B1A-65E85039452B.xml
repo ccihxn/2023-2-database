@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Runs" directorySegmentName="seg_0" id="DBF1CFC7-060E-C2EE-6B1A-65E85039452B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 07:00:41 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="79899B53-C384-E1AC-2794-F7619C1CC4F5" value="true"/>
+</engineerTo>
+<sourcePk>16F5686D-360A-641A-10A5-A72F8C146022</sourcePk>
+<targetPk>A3629BAB-8D8B-C9AD-381A-5A726B9209E6</targetPk>
+<dominantRole>FDE65E16-F1C7-7BE5-3142-8768D853E548</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3781AAD8-7BEA-AEA7-4EC5-DADCF2D1D780</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FDE65E16-F1C7-7BE5-3142-8768D853E548</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

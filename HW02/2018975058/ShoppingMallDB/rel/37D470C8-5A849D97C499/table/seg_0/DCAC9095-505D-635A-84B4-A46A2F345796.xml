@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCAC9095-505D-635A-84B4-A46A2F345796" name="addresses">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:12 UTC</createdTime>
+<generatorID>494DC3BF-6F66-6F73-238A-598932752E4A</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address" id="C568EBB8-445B-BFF3-FD94-EC3AAD4DBAB8">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:12 UTC</createdTime>
+<generatorID>43F995DD-6211-C5B7-615E-78B3C9DF0DAC</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>81888EF0-667E-383E-41BC-DF9A1E1DD66E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7291BCB9-83F9-B8B3-E61C-E81AFD9C76AC" name="addresses_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:12 UTC</createdTime>
+<generatorID>82F826CC-CF87-5F62-EA9E-0FBA0554F243</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C568EBB8-445B-BFF3-FD94-EC3AAD4DBAB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

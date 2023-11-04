@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="UniversityDB">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="sno" id="1B17BC6C-2053-CC98-A24B-01AB4E9ED728">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:46:44 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>20</dataTypePrecision>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="room_info" id="1D0435BD-A566-D981-FE69-2E4B657725DA">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:19:43 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phoneNo" id="3BB0185F-48C1-DBB0-470B-603596E25700">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:54:28 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>11</dataTypePrecision>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="address" id="618F7A32-5AEA-9658-25B8-F963E13ABB97">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:47:07 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>255</dataTypeSize>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="names" id="79AC5FE8-381E-E645-0C68-367605DA45A6">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:54:17 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="degree" id="83D73793-41E2-7932-A25F-482A5E8F998A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:48:16 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="day" id="A3C9C469-1B47-98EF-6425-63D45CCCA83B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-20 05:12:36 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="major" id="ACFFE904-79D9-5312-CA1B-B2AC3AF3CA87">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:47:26 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="grades" id="E8812D34-1225-187F-5183-D9FA1DBE293F">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:28:05 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="class_time" id="EAF276F1-3F9B-1F1D-26D2-9C81303977FC">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:19:09 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<fileName>UniversityDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

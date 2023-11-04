@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MovieDB_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="40A7CCB0-0BFD-7C7D-D882-1839479BDCC3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>MovieDB_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_*_0_0" id="AB091834-4562-3781-0040-DC592D746DA7">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>MovieDB_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="F186414D-39DA-7093-4445-339086920062">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>MovieDB_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

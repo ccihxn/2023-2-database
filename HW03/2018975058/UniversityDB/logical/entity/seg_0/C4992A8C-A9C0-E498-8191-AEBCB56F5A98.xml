@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4992A8C-A9C0-E498-8191-AEBCB56F5A98" name="parted_class">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 13:49:13 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="04499A39-4A09-EC5F-41F1-BA58B0F2698D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 14:44:19 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_name" id="28D7F782-F443-EEFD-0F00-F401FD007D2B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 13:55:50 UTC</createdTime>
+<generatorID>C0FFEAD6-7A81-E212-F1BE-D577A619663C</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<referedAttribute>4FC4158A-8487-D5C3-31D9-B0FC93F7C5DF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>79AC5FE8-381E-E645-0C68-367605DA45A6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professor_no" id="833B5030-B3ED-C42C-BFBA-86263C972DDC">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 14:43:14 UTC</createdTime>
+<generatorID>E5270B84-1B58-5143-3BEF-AABF53090DFB</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<referedAttribute>D1B24332-2F8E-CE25-3D8A-A1A5C5750489</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="room_id" id="8C436F8F-66BF-13EF-9346-AF4F84FACF07">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 15:42:09 UTC</createdTime>
+<generatorID>CF122F8C-81C6-D073-4ADA-A351C75E5E40</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<referedAttribute>383FE0D9-E16A-628E-9F08-95C24BFA003E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="123AD34B-E295-581A-569B-4B89B874D49D" name="parted_class PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 13:55:50 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04499A39-4A09-EC5F-41F1-BA58B0F2698D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

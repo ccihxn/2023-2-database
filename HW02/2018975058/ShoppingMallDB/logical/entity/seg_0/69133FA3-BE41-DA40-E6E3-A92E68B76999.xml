@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69133FA3-BE41-DA40-E6E3-A92E68B76999" name="Boards">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 08:30:06 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="board_id" id="84B4C57F-23DB-484D-63E4-12C1AB05657B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:38:54 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D95211C4-5798-923C-6E73-F23DF0AAB370</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="4F4AE146-DDA0-B208-44C4-C2922BD7C9AA">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:28:46 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A84F04E0-4E66-ED4A-5DC1-A3E96243EF12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="body" id="786EB2E9-20A8-B07C-7F2E-95CE41E16AD0">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:28:51 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>CAC471BE-8663-8B0C-9C01-40EBC235A9D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="upload_date" id="78737CC1-B9D9-651C-B8F9-6A84EF00B2C9">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:28:59 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>04E17AED-9468-6213-668A-F734916BB0AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type_board" id="722C6C55-1B0D-3443-0E22-79080307D9CD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:33:55 UTC</createdTime>
+<generatorID>4EBE0E72-AA9A-F6CC-C913-EF6210D87192</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<referedAttribute>E89C7542-B734-FBB3-B875-497A4C655C97</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A84F04E0-4E66-ED4A-5DC1-A3E96243EF12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="writer_id" id="017CD214-BEFF-760E-3614-2DC476A88CBD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 09:38:13 UTC</createdTime>
+<generatorID>C69B41EA-5981-38EC-65BB-0C2393287F64</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<referedAttribute>DBBFB101-4E0E-C750-3FB0-6FB34848DC1A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0D60337-F61B-2256-98B5-8002A3894E36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4069A4DF-1F2E-9876-F5AF-68AC190B0FA6" name="Products_Board PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 08:54:06 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84B4C57F-23DB-484D-63E4-12C1AB05657B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

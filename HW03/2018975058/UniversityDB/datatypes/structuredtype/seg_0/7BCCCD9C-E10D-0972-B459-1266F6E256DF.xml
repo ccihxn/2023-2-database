@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="People_info" directorySegmentName="seg_0" id="7BCCCD9C-E10D-0972-B459-1266F6E256DF">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:56:29 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="name" id="C255BAE1-DA7C-0048-F5FB-4D9599F41246">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:56:37 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>79AC5FE8-381E-E645-0C68-367605DA45A6</type>
+</Attribute>
+<Attribute name="address" id="3788853C-3939-232C-F5CD-EA9DDBF2463A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:56:44 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>618F7A32-5AEA-9658-25B8-F963E13ABB97</type>
+</Attribute>
+<Attribute name="phoneNo" id="1217EBA6-F23A-87CE-49DA-C98938BAD3EE">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:56:49 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>1C2B5CD3-907D-D4CE-E59C-6CC729C3E4BC</referencerelation>
+<scale>0</scale>
+<type>5C9BBD10-DEFB-1242-D87D-F896EE0775C6</type>
+<referenceID>1C2B5CD3-907D-D4CE-E59C-6CC729C3E4BC</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>

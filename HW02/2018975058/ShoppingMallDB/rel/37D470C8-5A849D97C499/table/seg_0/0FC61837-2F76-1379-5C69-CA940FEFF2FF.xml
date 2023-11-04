@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FC61837-2F76-1379-5C69-CA940FEFF2FF" name="Products">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>53A7DAF0-F909-7C05-F0DD-80D2A6209511</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prodNo" id="3C25F464-7E96-E948-55E5-134FC26BDBE0">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>504B3015-C6F8-808E-7D02-EF08D155B5AB</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D95211C4-5798-923C-6E73-F23DF0AAB370</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_name" id="15B94BDD-B7D1-B789-B58F-F520F50BDD2D">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>27611EEC-ABAF-F247-FE6A-79CD9E3ADD74</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A84F04E0-4E66-ED4A-5DC1-A3E96243EF12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="02930791-3B78-1922-314B-D241BBA8A2BF">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>B5BCD771-3BE1-E21A-5988-D9D2909072C1</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C57A4104-2AD5-0526-9F83-66B848FE410D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inventory_quantity" id="3D1E76F3-B207-3D06-63DF-B523E1CD3533">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>8CEE860C-F7D3-2CBE-4E2B-0604CC410743</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>761B1800-DFA6-8DF4-6C17-AE44DCF41C6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D05C98C-CE61-2809-6B36-8877B561AD50" name="Products_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>89DDF54D-E2D3-8B86-6284-ECD96085B1BC</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C25F464-7E96-E948-55E5-134FC26BDBE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

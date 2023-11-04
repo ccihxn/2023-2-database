@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C96CE6F-FCAD-9048-4232-23CB22F3DB2B" name="Order">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>AF9F6426-728F-033C-0524-4E0D4EFC7B3E</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="B3FD2D78-54C6-151A-0B6A-903B4A9B5EE3">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:34:00 UTC</createdTime>
+<generatorID>FD9BD68D-3CE9-EC92-CBB7-F45AEFC0E699</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D95211C4-5798-923C-6E73-F23DF0AAB370</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_id" id="BBC8071D-E8E3-58CA-D437-9A2078689E10">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>5FCC5B9D-3425-A479-CF3E-F808A97F3245</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0D60337-F61B-2256-98B5-8002A3894E36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F3FF24-D70E-3F55-AE45-BA00AEE7D856" referredColumn="A877A4AD-8558-0BAA-B83A-A4B02AD03A77"/>
+</associations>
+</Column>
+<Column name="address_togo" id="8A3FAA19-454C-C264-8363-0D37624C943E">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>5713C67F-27D1-01E9-2A9D-3481EEEE7BD5</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>81888EF0-667E-383E-41BC-DF9A1E1DD66E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2512645-1778-108A-BE1E-052FDA336EC6" referredColumn="C568EBB8-445B-BFF3-FD94-EC3AAD4DBAB8"/>
+</associations>
+</Column>
+<Column name="order_date" id="1985E339-27DF-F0D5-713F-3EB9DD30D0D0">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>A2803A02-08A4-170E-16F6-DD47B61EE7D2</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>04E17AED-9468-6213-668A-F734916BB0AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BBA1817-7D33-5987-11D1-B94F7B8D5C4C" name="Order_PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>DF00CD45-4AD3-2CC3-D6CF-F68A51730B5C</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FD2D78-54C6-151A-0B6A-903B4A9B5EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="100E1428-3C67-591C-EBDA-85ED47208B98" name="Order_Member">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>BE1E3400-4A1E-AF6A-0E55-9C4FF55962FE</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBC8071D-E8E3-58CA-D437-9A2078689E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23743451-0F95-9C6C-5897-274F8AF85719" name="togoAddress_Order">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 10:08:13 UTC</createdTime>
+<generatorID>C6A7F1F8-9D0A-4657-16D3-21D22A6A1868</generatorID>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A3FAA19-454C-C264-8363-0D37624C943E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

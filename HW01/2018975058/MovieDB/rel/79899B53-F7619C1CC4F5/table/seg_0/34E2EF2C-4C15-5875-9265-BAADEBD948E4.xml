@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E2EF2C-4C15-5875-9265-BAADEBD948E4" name="Movie">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>45BBC862-15E0-D6BA-AC3D-EC13B5DC2E26</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="8A53A13B-6415-8D32-5ED3-ACE87B721110">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>F7201715-0814-1A72-367D-F35DDAF96AAC</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8D7B4B54-4531-EB25-677B-EA166395FC6D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="C6638B9E-13BD-D9C9-2313-7907F636E354">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>EA877940-0E79-1A2F-6230-E9249AE30CE7</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BAD16A72-DBA0-9DB8-3909-B310CE80864C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2023</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="length" id="F53DAE89-E47F-850E-465F-2090DAA632D8">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>3FA2DFA7-5EA9-C9D4-12EC-D105D59B2168</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1D55D8-609C-E827-8D4A-12892BBC7C9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="inColor" id="769679A8-D151-2E1A-32C0-7BDFE5888597">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>9CF6D811-C4BF-E70D-B7F7-5364A14DF94A</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4733E067-4035-893E-F7B6-F863C71D8EE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studioName" id="7A406DD8-70A2-4E27-6D70-A4A24D49EEBE">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>A2E4376E-A0DE-FBCA-1012-532FBD06B3B1</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A0FFB59-3A11-5C74-A7FE-9DE7265EA03D" referredColumn="61BBC48B-C207-4300-37C1-E838A0E840B8"/>
+</associations>
+</Column>
+<Column name="producerNo" id="587781E3-2864-9E00-BF91-8DE2C44D94E3">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<importedID>2EB4EECA-409F-34F9-AECF-AB4FFAC55F47</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6AAC0C5-2E32-E8CF-3F48-3B79A397F31F" referredColumn="DB6E361F-543E-777F-850B-754BF1D8AD81"/>
+</associations>
+</Column>
+<Column name="presNo" id="AAE23428-595D-6E57-8E5E-BB48C9F4BE79">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>D59E6276-DC8F-696D-D72E-7C268C80797B</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F625C7F8-A54C-B0DA-89F4-9E90B827D5AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E28B7AD8-BD14-5EC2-1142-B57014BE09C4" referredColumn="DB6E361F-543E-777F-850B-754BF1D8AD81"/>
+</associations>
+</Column>
+<Column name="soundStudioName" id="730B41B6-D878-0765-1545-6EDB0E39C181">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>5FE72819-8DDE-B2F7-0CF8-E8299CECB547</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3AF1D67-0E5D-EAD2-5CDB-29F61428D258</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4970EDA-5F9C-578D-D77C-C756A1B57012" referredColumn="61BBC48B-C207-4300-37C1-E838A0E840B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBEB7C05-B985-653E-267F-0D730F874922" name="mv_key">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>7E913650-9D6E-B339-3553-510EF21C7E3D</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A53A13B-6415-8D32-5ED3-ACE87B721110"/>
+<colUsage columnID="C6638B9E-13BD-D9C9-2313-7907F636E354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A95A497-4C72-5295-C0FA-F04C5CA6F8CB" name="Owns">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 06:33:45 UTC</createdTime>
+<generatorID>C9ACEFCD-D80D-EEBF-C41B-70A3F530957A</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A406DD8-70A2-4E27-6D70-A4A24D49EEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1561FD6-B9EC-FD6C-D223-4B083974EF05" name="mv_prod">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<generatorID>A3629BAB-8D8B-C9AD-381A-5A726B9209E6</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="587781E3-2864-9E00-BF91-8DE2C44D94E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783720C7-BA6A-D27B-4928-C0451B3A7A61" name="Directed">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>2F0C86B5-9798-F5C4-9E73-FEFC77220EAF</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE23428-595D-6E57-8E5E-BB48C9F4BE79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12007889-DC51-6D90-7B9C-030EE653705F" name="Sounds">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<generatorID>1FB9C9E7-F0CD-7E02-09BA-6BA5C386ABE9</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730B41B6-D878-0765-1545-6EDB0E39C181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="mv_chk" directorySegmentName="seg_0" id="ADF2514B-2141-FD4D-90E2-75AE19D27376">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<importedID>43B932A9-1F08-7D5B-1448-FBB400879207</importedID>
+<rule><![CDATA[length > 50 and year > 1900 and year <= 2023]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

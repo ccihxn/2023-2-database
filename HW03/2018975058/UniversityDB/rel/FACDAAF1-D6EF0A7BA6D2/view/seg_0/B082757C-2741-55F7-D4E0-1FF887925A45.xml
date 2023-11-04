@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="B082757C-2741-55F7-D4E0-1FF887925A45" name="Dept_Info">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-22 05:12:02 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<ordsAlias>view_4</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    professor.department,
+    COUNT(professor.sno)          AS "Count_sno",
+    COUNT(assistant.assistant_no) AS "Count_assistant_no"
+FROM
+         professor
+    INNER JOIN department ON department.name = professor.department
+    INNER JOIN assistant ON department.name = assistant.department
+GROUP BY
+    professor.department
+HAVING
+    COUNT(professor.sno) >= 2]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="department" id="A8FD703E-E2EB-EB25-83F1-278C5819B87C">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-22 05:14:56 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<headerAlias>department</headerAlias>
+<reference>false</reference>
+<referencedColumn>2E21F92C-8214-E775-D153-CC2166C667AE</referencedColumn>
+<table>CE817249-4CB0-D76D-1490-BEB063E564CC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;Count_sno&quot;" id="130FE87A-2319-CDE4-8761-86E7B410EFDB">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-22 05:14:56 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Count_sno&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Count_sno&quot;</headerAlias>
+<expression>COUNT(professor.sno)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;Count_assistant_no&quot;" id="7BBFF860-AB78-DB6E-1664-389800D200BD">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-22 05:14:56 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Count_assistant_no&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Count_assistant_no&quot;</headerAlias>
+<expression>COUNT(assistant.assistant_no)</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CE817249-4CB0-D76D-1490-BEB063E564CC">
+<container>true</container>
+<tableName>professor</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0CC36E0C-E0AD-9A69-E634-EE7988F9C202">
+<container>true</container>
+<tableName>department</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9ECBE02F-C5E9-9CF3-DAB7-538FF273F134">
+<container>true</container>
+<tableName>assistant</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2E21F92C-8214-E775-D153-CC2166C667AE">
+<columnName>department</columnName>
+<tableName>professor</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C8F2BF4B-9B94-EA32-0681-CDB95C50D0DC">
+<columnName>department</columnName>
+<tableName>assistant</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0D7CA98A-CCBE-BEC6-5818-BF14F732EF1F">
+<columnName>assistant_no</columnName>
+<tableName>assistant</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="22B11E9A-9881-FAB8-719D-9C931417EE08">
+<columnName>sno</columnName>
+<tableName>professor</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="35272127-DC89-6E38-262C-80746DDBC5D1">
+<columnName>name</columnName>
+<tableName>department</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

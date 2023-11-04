@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D702C826-1B9D-6C53-D338-4033AF521F35" name="professor">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:42:01 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sno" id="D1B24332-2F8E-CE25-3D8A-A1A5C5750489">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:50:49 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B17BC6C-2053-CC98-A24B-01AB4E9ED728</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professor_info" id="4822C005-EEB6-2313-95F5-981C955DA84A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:59:53 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>7BCCCD9C-E10D-0972-B459-1266F6E256DF</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_office" id="8B083CF0-90CE-48FA-91E7-16CBC31B2B35">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 07:50:56 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>618F7A32-5AEA-9658-25B8-F963E13ABB97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department" id="C5F49A5F-4D1F-68E7-D401-278E09B7336A">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:04:58 UTC</createdTime>
+<generatorID>EF80CC7A-BE7A-424C-767C-86B3392D5E60</generatorID>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FD8459C0-21B0-E817-B008-130B0683068F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ACFFE904-79D9-5312-CA1B-B2AC3AF3CA87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<nestedAttributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<nestedAttribute name="professor_info.name" directorySegmentName="seg_0" id="E3961941-CD1A-89ED-DAEE-C9774C493B76">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<parentObject>4822C005-EEB6-2313-95F5-981C955DA84A</parentObject>
+<structAttributeID>C255BAE1-DA7C-0048-F5FB-4D9599F41246</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>79AC5FE8-381E-E645-0C68-367605DA45A6</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</nestedAttribute>
+<nestedAttribute name="professor_info.address" directorySegmentName="seg_0" id="D78AEB4C-A589-447C-C45F-C410B19AA186">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>4822C005-EEB6-2313-95F5-981C955DA84A</parentObject>
+<structAttributeID>3788853C-3939-232C-F5CD-EA9DDBF2463A</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<domain>618F7A32-5AEA-9658-25B8-F963E13ABB97</domain>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</nestedAttribute>
+<nestedAttribute name="professor_info.phoneNo" directorySegmentName="seg_0" id="B74B32AD-383A-05F5-15C6-AF7411389A17">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>4822C005-EEB6-2313-95F5-981C955DA84A</parentObject>
+<structAttributeID>1217EBA6-F23A-87CE-49DA-C98938BAD3EE</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>5C9BBD10-DEFB-1242-D87D-F896EE0775C6</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</nestedAttribute>
+<nestedAttribute name="professor_info.phoneNo.handPhone_no" directorySegmentName="seg_0" id="95D1D07F-6C79-7725-FAEF-35F924C9897B">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<parentObject>B74B32AD-383A-05F5-15C6-AF7411389A17</parentObject>
+<structAttributeID>B1871224-4D0C-22DD-1482-205DA494036D</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedAttribute>
+<nestedAttribute name="professor_info.phoneNo.homePhone_no" directorySegmentName="seg_0" id="514017B8-5A8F-7A43-363F-612A07AF8935">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>B74B32AD-383A-05F5-15C6-AF7411389A17</parentObject>
+<structAttributeID>A68CCEF9-AE94-F1E7-559E-9E42D4F05987</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedAttribute>
+<nestedAttribute name="professor_info.phoneNo.officePhone_no" directorySegmentName="seg_0" id="630B87C1-E19A-CBA4-D3C4-3A7945642CEB">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:11 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>B74B32AD-383A-05F5-15C6-AF7411389A17</parentObject>
+<structAttributeID>ECE75C58-DEB5-ED13-A539-9E099D4BE9CD</structAttributeID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<domain>3BB0185F-48C1-DBB0-470B-603596E25700</domain>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>010000000</beginValue>
+<endValue>01099999999</endValue>
+</rangeDef>
+</listOfRanges>
+</nestedAttribute>
+</nestedAttributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98F8706C-F3C1-5C74-868D-2646626CC7F4" name="professor PK">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-19 08:00:48 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FACDAAF1-1DB5-4FBF-A530-D6EF0A7BA6D2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1B24332-2F8E-CE25-3D8A-A1A5C5750489</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

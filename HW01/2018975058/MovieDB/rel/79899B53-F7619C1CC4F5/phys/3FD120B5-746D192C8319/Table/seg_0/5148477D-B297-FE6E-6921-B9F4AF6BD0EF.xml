@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MOVIESTAR" directorySegmentName="seg_0" id="5148477D-B297-FE6E-6921-B9F4AF6BD0EF">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BIRTHDATE" id="08E5C665-55B5-3776-2C8C-3B4BD17A9D80">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="presNo" id="4C2DAEC4-8FDC-EAC3-215B-70E64B6F6965">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="4C98099F-37FA-73DA-39DB-7F51AF226838">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="61689614-8AB5-0979-02C3-E495FB960194">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="B36CE509-6691-F9C8-C654-16AE83A3C138">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MovieStar__IDX" id="A34C6466-7A37-8B3B-96B1-37DF0CE0C189">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 09:00:43 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="st_key" id="3570D261-08DD-9446-C06B-9905F24701E9">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SEX_CHK" id="17B303C1-631E-9538-7C31-57F586B43B21">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

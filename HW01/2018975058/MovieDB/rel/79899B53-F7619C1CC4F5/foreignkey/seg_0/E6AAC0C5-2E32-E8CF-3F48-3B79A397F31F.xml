@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6AAC0C5-2E32-E8CF-3F48-3B79A397F31F" containerWithKeyObject="34E2EF2C-4C15-5875-9265-BAADEBD948E4" localFKIndex="B1561FD6-B9EC-FD6C-D223-4B083974EF05" name="mv_prod">
+<sourceDDLFile>MovieDB.sql</sourceDDLFile>
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-05 08:38:11 UTC</createdTime>
+<generatorID>A3629BAB-8D8B-C9AD-381A-5A726B9209E6</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<importedID>73775030-C55B-A59D-50A5-282D3E2C1C38</importedID>
+<referredTableLongName>MovieExec</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>59498077-726D-0739-C435-A56D44657C3B</referredTableID>
+<keyObject>521041F1-CBF1-B73C-A2A3-857986D76C68</keyObject>
+<referredKeyID>521041F1-CBF1-B73C-A2A3-857986D76C68</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>certNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

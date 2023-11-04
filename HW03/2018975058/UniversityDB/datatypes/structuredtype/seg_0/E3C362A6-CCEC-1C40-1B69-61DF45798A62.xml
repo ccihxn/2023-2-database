@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="class_date" directorySegmentName="seg_0" id="E3C362A6-CCEC-1C40-1B69-61DF45798A62">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-20 12:48:21 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="day" id="8D603CF1-8E26-1E65-80DE-9A8A9BFC83DA">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-20 12:48:28 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>A3C9C469-1B47-98EF-6425-63D45CCCA83B</type>
+</Attribute>
+<Attribute name="start_time" id="1B100145-48FB-ED61-227F-48DC66103E65">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-20 12:48:32 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>EAF276F1-3F9B-1F1D-26D2-9C81303977FC</type>
+</Attribute>
+<Attribute name="end_time" id="33CAE1C8-DEC4-AADD-8A96-651534A1411C">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-21 06:52:31 UTC</createdTime>
+<ownerDesignName>UniversityDB</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>EAF276F1-3F9B-1F1D-26D2-9C81303977FC</type>
+</Attribute>
+</attributes>
+</StructuredType>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="togoAddress_Order" directorySegmentName="seg_0" id="C6A7F1F8-9D0A-4657-16D3-21D22A6A1868">
+<createdBy>jeonjihwan</createdBy>
+<createdTime>2023-09-15 07:40:46 UTC</createdTime>
+<ownerDesignName>ShoppingMallDB</ownerDesignName>
+<engineerTo>
+<item key="37D470C8-AB37-B7A6-AE83-5A849D97C499" value="true"/>
+</engineerTo>
+<sourcePk>82F826CC-CF87-5F62-EA9E-0FBA0554F243</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>494DC3BF-6F66-6F73-238A-598932752E4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF9F6426-728F-033C-0524-4E0D4EFC7B3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
