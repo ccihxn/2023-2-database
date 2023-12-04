@@ -1,0 +1,156 @@
+<!DOCTYPE html> <!-- HTML5 문서 유형 선언 -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- 모바일 기기에서 보기 좋게 viewport 설정 -->
+<style>
+canvas {
+    border: 1px solid #d3d3d3; /* 캔버스에 회색 테두리 설정 */
+    background-color: #f1f1f1; /* 캔버스의 배경색을 밝은 회색으로 설정 */
+}
+</style>
+</head>
+<body onload="startGame()"> <!-- 문서가 로드될 때 startGame 함수 호출 -->
+<script>
+var myGamePiece; // 게임 플레이어를 나타내는 객체를 저장할 변수
+var myObstacles = []; // 장애물들을 저장할 배열
+var myScore; // 점수를 저장할 객체를 위한 변수
+
+function startGame() { // 게임을 시작하는 함수
+    myGamePiece = new component(30, 30, "red", 10, 120); // 게임 플레이어 생성
+    myScore = new component("30px", "Consolas", "black", 280, 40, "text"); // 점수 객체 생성
+    myGameArea.start(); // 게임 영역 설정 및 게임 시작
+}
+
+var myGameArea = { // 게임 영역을 정의하는 객체
+    canvas : document.createElement("canvas"), // 캔버스 요소 생성
+    start : function() { // 게임 영역을 초기화하고 게임을 시작하는 메서드
+        this.canvas.width = 480; // 캔버스의 너비 설정
+        this.canvas.height = 270; // 캔버스의 높이 설정
+        this.context = this.canvas.getContext("2d"); // 2D 컨텍스트를 가져옴
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]); // 캔버스를 문서에 추가
+        this.frameNo = 0; // 프레임 번호 초기화
+        this.interval = setInterval(updateGameArea, 20); // 20ms마다 updateGameArea 함수를 호출하여 게임 업데이트
+    },
+    clear : function() { // 캔버스를 지우는 메서드
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    },
+    stop : function() { // 게임을 멈추는 메서드
+        clearInterval(this.interval); // setInterval을 사용하여 설정된 타이머를 취소
+    }
+}
+
+function component(width, height, color, x, y, type) { // 게임 요소(플레이어, 점수, 장애물)를 만드는 생성자 함수
+    this.type = type; // 요소의 타입 (text 또는 기타)
+    this.width = width; // 요소의 너비
+    this.height = height; // 요소의 높이
+    this.speedX = 0; // 수평 이동 속도
+    this.speedY = 0; // 수직 이동 속도
+    this.x = x; // 수평 위치
+    this.y = y; // 수직 위치
+    this.update = function() { // 요소를 업데이트(그리기)하는 메서드
+        ctx = myGameArea.context;
+        if (this.type == "text") { // 요소가 텍스트 타입이라면
+            ctx.font = this.width + " " + this.height; // 폰트 스타일 설정
+            ctx.fillStyle = color; // 텍스트 색상 설정
+            ctx.fillText(this.text, this.x, this.y); // 텍스트 그리기
+        } else { // 그 외 사각형 등의 요소라면
+            ctx.fillStyle = color; // 채우기 색상 설정
+            ctx.fillRect(this.x, this.y, this.width, this.height); // 사각형 그리기
+        }
+    }
+    this.newPos = function() { // 요소의 새 위치를 계산하는 메서드
+        this.x += this.speedX;
+        this.y += this.speedY;
+    }
+    this.crashWith = function(otherobj) { // 다른 객체와 충돌했는지 확인하는 메서드
+        var myleft = this.x;
+        var myright = this.x + (this.width);
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        var otherleft = otherobj.x;
+        var otherright = otherobj.x + (otherobj.width);
+        var othertop = otherobj.y;
+        var otherbottom = otherobj.y + (otherobj.height);
+        var crash = true;
+        if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) { // 충돌하지 않았다면
+            crash = false; // 충돌하지 않음
+        }
+        return crash; // 충돌 상태 반환
+    }
+}
+
+function updateGameArea() { // 게임 영역을 업데이트하는 함수
+    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+    for (i = 0; i < myObstacles.length; i += 1) { // 모든 장애물에 대해
+        if (myGamePiece.crashWith(myObstacles[i])) { // 충돌했다면
+            myGameArea.stop(); // 게임을 멈춤
+            return;
+        } 
+    }
+    myGameArea.clear(); // 캔버스 클리어
+    myGameArea.frameNo += 1; // 프레임 번호 증가
+    if (myGameArea.frameNo == 1 || everyinterval(150)) { // 첫 번째 프레임이거나 매 150번째 프레임마다
+        x = myGameArea.canvas.width; // 캔버스의 너비를 x로 설
+        minHeight = 20; // 장애물의 최소 높이
+        maxHeight = 200; // 장애물의 최대 높이
+        height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight); // 무작위 높이 계산
+        minGap = 50; // 장애물 사이의 최소 간격
+        maxGap = 200; // 장애물 사이의 최대 간격
+        gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap); // 무작위 간격 계산
+        myObstacles.push(new component(10, height, "green", x, 0)); // 상단 장애물 추가
+        myObstacles.push(new component(10, x - height - gap, "green", x, height + gap)); // 하단 장애물 추가
+    }
+    for (i = 0; i < myObstacles.length; i += 1) { // 모든 장애물에 대해
+        myObstacles[i].speedX = -1; // 장애물을 왼쪽으로 이동
+        myObstacles[i].newPos(); // 장애물의 새 위치 계산
+        myObstacles[i].update(); // 장애물 그리기 업데이트
+    }
+    myScore.text="SCORE: " + myGameArea.frameNo; // 점수 텍스트 업데이트
+    myScore.update(); // 점수 그리기 업데이트
+    myGamePiece.newPos(); // 게임 플레이어의 새 위치 계산
+    myGamePiece.update(); // 게임 플레이어 그리기 업데이트
+}
+
+function everyinterval(n) {
+    // 현재 프레임 번호가 n으로 나누어 떨어지면 true를 반환하는 함수
+    if ((myGameArea.frameNo / n) % 1 == 0) { return true; }
+    return false;
+}
+
+function moveup() {
+    // myGamePiece의 Y축 속도를 -1로 설정하여 위로 이동하게 하는 함수
+    myGamePiece.speedY = -1; 
+}
+
+function movedown() {
+    // myGamePiece의 Y축 속도를 1로 설정하여 아래로 이동하게 하는 함수
+    myGamePiece.speedY = 1; 
+}
+
+function moveleft() {
+    // myGamePiece의 X축 속도를 -1로 설정하여 왼쪽으로 이동하게 하는 함수
+    myGamePiece.speedX = -1; 
+}
+
+function moveright() {
+    // myGamePiece의 X축 속도를 1로 설정하여 오른쪽으로 이동하게 하는 함수
+    myGamePiece.speedX = 1; 
+}
+
+function clearmove() {
+    // myGamePiece의 X축과 Y축 속도를 0으로 설정하여 이동을 멈추게 하는 함수
+    myGamePiece.speedX = 0; 
+    myGamePiece.speedY = 0; 
+}
+</script>
+
+<div style="text-align:center;width:480px;">
+  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+</div>
+
+<p>The score will count one point for each frame you manage to "stay alive".</p>
+</body>
+</html>
